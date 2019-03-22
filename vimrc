@@ -49,6 +49,8 @@ vnoremap <Space> zf
 set foldenable
 set foldmethod=syntax
 set foldlevelstart=20
+" unlimit yanking between files
+:set viminfo='20,<1000,s10,h 
 
 " Smart Tab Key
 function! InsertTabWrapper()
